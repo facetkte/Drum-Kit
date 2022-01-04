@@ -69,3 +69,10 @@ function buttonpress(currentKey){
     }, 100 );
 
 }
+
+
+$("button").click(function() {
+    var kick = new Audio("sounds/kick-bass.mp3");
+    kick.play();
+});
+
